@@ -27,7 +27,7 @@ user@host:~$ virtualenv flask_env
 user@host:~$ source flask_env/bin/activate
 user@host:~$ pip install flask
 user@host:~$ cd src
-user@host:~$ python3 hello_world_app
+user@host:~$ python3 hello_world_app.py
 ```
 
 This will set up the virtual environments and assumes the following:
