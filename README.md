@@ -104,9 +104,9 @@ The program finally returns the template `playing.html` file and passes it to th
 
 <section id="header">
 	<div class="inner">
-    <img src="{{ url_for('static', filename='images/logo-white.png') }}" style="width:40%; margin-top:-5%;"/>
+    	<img src="{{ url_for('static', filename='images/logo-white.png') }}" style="width:40%; margin-top:-5%;"/>
         {% if 'correctly.' not in guess_message %}
-		     <p>Take a guess! Remember, the number is a whole number between {{ lower_bound }} and {{ upper_bound }}.</p><br>
+	    <p>Take a guess! Remember, the number is a whole number between {{ lower_bound }} and {{ upper_bound }}.</p><br>
             <form method="POST">
                 <input name="text"><br><br>
                 <input type="submit">
