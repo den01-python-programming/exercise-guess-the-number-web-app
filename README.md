@@ -92,7 +92,7 @@ def inprogress():
 
 This file sets up the web server, much like we did in the `Hello World!` section. We won't go much into the inner mechanisms of Flask (you can read more about that [here](https://realpython.com/introduction-to-flask-part-1-setting-up-a-static-site/)) but you should be able to see what's happening in the main part of this file.
 
-Much like any other Python program we've written, we want to implement a check to see if the guess is correct. You can use very similar code to what you developed in th first exercise here. All we're doing is getting the  user input and checking it against something we know.
+Much like any other Python program we've written, we want to implement a check to see if the guess is correct. You can use very similar code to what you developed in the first exercise here. All we're doing is getting the user input and checking it against something we know.
 
 The `try` and `except` loop is there to handle what happens if the user doesn't input a whole number. If this happens, the line `current_guess = int(request.form.get('text',default_value))` will error and the prgram will jump to `guess_message = "Please enter a whole number between " + str(data.lower_bound) + " and " + str(data.upper_bound) + "."`.
 
