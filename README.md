@@ -23,8 +23,8 @@ This code is contained inside this repository in the `src` folder and is called 
 ```plaintext
 user@host:~$ git clone <your-repo-url-here>
 user@host:~$ cd <your-repo-name>
-user@host:~$ virtualenv flask_env
-user@host:~$ source flask_env/bin/activate
+user@host:~$ virtualenv .flask_env
+user@host:~$ source .flask_env/bin/activate
 user@host:~$ pip install flask
 user@host:~$ cd src
 user@host:~$ python3 hello_world_app.py
